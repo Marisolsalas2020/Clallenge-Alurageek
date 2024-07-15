@@ -1,0 +1,38 @@
+{
+    "products": [
+        {
+            "name": "Laptop Notebook HP 350",
+            "price": "1300",
+            "image_url": "[^1^][13]",
+            "id": 1
+        },
+        {
+            "name": "Camiseta Star Wars",
+            "price": "15000",
+            "image_url": "",
+            "id": 2
+        },
+        {
+            "name": "taza Star Wars",
+            "price": "3000",
+            "image_url": "taza.png",
+            "id": 3
+
+        },
+        {
+            "name": "plato Star Wars",
+            "price": "4000",
+            "image_url": "https://partystock.com.mx/cdn/shop/products/Platos_9__Star_Wars_8_pz.png?v=1676937712&width=1946",
+            "id": 4
+        },
+        {
+            "name": "consola portatil",
+            "price": "10000",
+            "image_url": "consolademano.png",
+            "id": 5
+        }
+    ]
+    
+}
+
+

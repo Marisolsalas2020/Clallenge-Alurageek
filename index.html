@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/icons/m.ico">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/corazones.png" alt="logo" class="corazones">
+            
+        </div>
+    </header>
+
+    <main class="main-container">
+        <section class="main-container-products">
+            <h1 class="title-main-container"><strong> PRODUCTOS:</strong></h1>
+            <div data-product class="products-container">
+                <!-- Aquí irían los productos -->
+                
+                <article class="product-card">
+                <img class="product-card-img" aspect-ratio:="" auto="" height="60px" src="https://i5.walmartimages.com/asr/57bb38e9-90a1-4532-8f4b-0e76e4538846.b8710b156887abf438daa8aa6905b47d.jpeg" alt="Notebook">
+                <p class="card-title">Laptop Notebook HP 350</p>
+                <p class="card-price">$350.000</p> 
+                <img class="card-icon" height="60px" auto="" aspect-ratio:="" src="https://challenge-alura-geek-v2-2.vercel.app/assets/icons/borrar.png" alt=""data-remove="true" > 
+                </article>
+
+                <article class="product-card">
+                <img class="product-card-img"auto="" height="60px"src="./assets/taza.png" alt="consola" >
+                <p class="card-title">taza Star Wars</p>
+                <p class="card-price">$4000</p>
+                <img class="card-icon" src="https://challenge-alura-geek-v2-2.vercel.app/assets/icons/borrar.png" alt=""></article>
+
+                <article class="product-card">
+                    <img class="product-card-img" auto="" height="60px" src="./assets/consolademano.png" alt="taza" >
+                    <p class="card-title">consola portatil</p>
+                    <p class="card-price">$10000</p>
+                    <img class="card-icon" src="https://challenge-alura-geek-v2-2.vercel.app/assets/icons/borrar.png" alt=""></article>
+            </div>
+        </section>
+
+        <section class="main-container-form">
+            <h1 class="title-container"><strong>AGREGAR<br> PRODUCTO:</strong></h1>
+            <form data-form class="form-container">
+                <input data-name placeholder="nombre..." type="text">
+                <input data-price placeholder="precio..." type="text">
+                <input data-image placeholder="imagen..." type="text">
+                <div class="button-container">
+                    <button type="submit" class="button-submit" id="button">Enviar...</button>
+                    <button type="reset" class="button-clear" id="reset">Limpiar...</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer-container">
+        <div class="logo">
+            <img src="./assets/corazones.png" alt="logo" class="corazones">
+        </div>
+        <p>Desarrollado por Marisol Salas</p>
+        <p>ALURA LATAM - 2024</p>
+    </footer>
+
+    <script src="main.js" type="module"></script>
+</body>
+</html>
